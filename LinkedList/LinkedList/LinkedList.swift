@@ -196,6 +196,20 @@ struct LinkedList<Value : Equatable & Comparable>{
     }
     
     
+    public func  reverseListNoRecursion () {
+    
+        var holder = head
+        var stack = Stack<Value>()
+        while let next = holder?.next {
+            
+            stack.push(holder!.value)
+            holder = next
+        }
+        stack.push(holder!.value)
+        print(stack)
+    }
+    
+    
     
 }
 
