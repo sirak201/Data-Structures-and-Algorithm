@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct LinkedList<Value : Equatable>{
+struct LinkedList<Value : Equatable & Comparable>{
     var head : Node<Value>?
     var tail: Node<Value>?
     
@@ -142,6 +142,61 @@ struct LinkedList<Value : Equatable>{
         }
         return LinkedList()
     }
+    
+//    @discardableResult
+     public  func mergeSortedList(list1 : LinkedList , list2: LinkedList , startList : LinkedList = LinkedList()) -> LinkedList {
+        var list = startList
+        guard let head1 = list1.head else {
+            if startList.isEmpty {
+                list = list2
+            } else {
+                list.appened(list2.head!.value)
+            }
+            return list
+        }
+        guard let head2 = list2.head else {
+            if startList.isEmpty {
+                list = list2
+            }
+            return list
+        }
+        
+        if head1.value < head2.value {
+            if startList.isEmpty {
+                list.appened(head1.value)
+                var newList = list1
+                newList.pop()
+                list = mergeSortedList(list1: newList, list2: list2 , startList: list)
+            } else {
+                list.appened(list1.head!.value)
+                var newList = list1
+                newList.pop()
+                list = mergeSortedList(list1: newList, list2: list2 , startList: list)
+            }
+        } else {
+            if startList.isEmpty {
+                list.appened(head2.value)
+                var newList = list2
+                newList.pop()
+                list = mergeSortedList(list1: list1, list2: newList , startList: list)
+            }
+            else {
+                list.appened(list2.head!.value)
+                var newList = list2
+                newList.pop()
+                
+                list = mergeSortedList(list1: list1, list2: newList , startList: list)
+
+            }
+        }
+        
+        
+        
+        return list
+    }
+    
+    
+    
 }
 
 extension LinkedList : CustomStringConvertible {

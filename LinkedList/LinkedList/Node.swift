@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Node<Value : Equatable> {
+public class Node< Value : Equatable & Comparable> {
     public var value : Value
     public var next : Node?
     

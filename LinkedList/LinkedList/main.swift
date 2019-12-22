@@ -58,4 +58,19 @@ list2.printInReverse(list2.head)
 let reversedLink = list2.reverseList(list2.head)
 print(reversedLink)
 
+//LinkedList.m
+
+var merge1 = LinkedList<Int>()
+merge1.appened(3)
+merge1.appened(5)
+merge1.appened(10)
+
+var merge2 = LinkedList<Int>()
+merge2.appened(1)
+merge2.appened(4)
+merge2.appened(20)
+
+let merege = reversedLink.mergeSortedList(list1: merge1, list2: merge2)
+print(merege)
+
 
