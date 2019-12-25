@@ -77,3 +77,24 @@ extension String {
         
     }
 }
+
+
+
+
+
+class Solution {
+    
+    func isValid(_ s: String) -> Bool {
+        var stack = [Character]()
+        
+        for i in s {
+            if (i == "(" || i ==  "[" || i ==  "{" ){
+                stack.append(i)
+            } else if  i == ")" || i ==   "]" || i ==   "}"{
+                stack.removeLast()
+            }
+        }
+        return stack.isEmpty ? true : false
+    }
+}
+

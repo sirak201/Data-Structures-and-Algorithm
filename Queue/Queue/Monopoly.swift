@@ -1,24 +1,22 @@
 //
-//  Queue.swift
+//  Monopoly.swift
 //  Queue
 //
-//  Created by Sirak on 12/22/19.
+//  Created by Sirak on 12/24/19.
 //  Copyright © 2019 Sirak. All rights reserved.
 //
 
 import Foundation
 
-
-public protocol Queue {
-    associatedtype Element
-    mutating func enqueue(_ element : Element) -> Bool
-    mutating func dequeue () -> Element?
-    var isEmpty : Bool { get }
-    var peek : Element? { get }
+protocol BoardGameManager {
+  associatedtype Player
+    mutating func nextPlayer() -> Player?
+    
 }
 
 
-public struct QueueArray<T> : Queue {
+struct Monopoly <T> : BoardGameManager , Queue{
+    
     @discardableResult
     public mutating func enqueue(_ element: T) -> Bool {
         array.append(element)
@@ -43,13 +41,7 @@ public struct QueueArray<T> : Queue {
         return array.first
     }
     
-    
-
-}
-
-
-extension QueueArray : CustomStringConvertible {
-    public var description: String {
-        return String(describing: array)
+    mutating func nextPlayer() -> T? {
+        return  array.isEmpty ? nil : dequeue()
     }
 }

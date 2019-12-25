@@ -7,19 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE2C3FC823B0080200610C26 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FC723B0080200610C26 /* main.swift */; };
-		CE2C3FCF23B0083100610C26 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FCE23B0083100610C26 /* Stack.swift */; };
-		CE2C3FD123B0084100610C26 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FD023B0084100610C26 /* LinkedList.swift */; };
-		CE2C3FD323B0084900610C26 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FD223B0084900610C26 /* Node.swift */; };
-		CE2C3FD623B0087E00610C26 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FD523B0087E00610C26 /* Queue.swift */; };
-		CE2C3FD823B1D62300610C26 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FD723B1D62300610C26 /* DoublyLinkedList.swift */; };
-		CE2C3FDA23B2870A00610C26 /* DoubleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3FD923B2870A00610C26 /* DoubleNode.swift */; };
-		CE2C401A23B2998D00610C26 /* QueueRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C401923B2998D00610C26 /* QueueRingBuffer.swift */; };
-		CE2C401C23B2A7D200610C26 /* Monopoly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C401B23B2A7D200610C26 /* Monopoly.swift */; };
+		CE2C402A23B3DDE900610C26 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C402923B3DDE900610C26 /* main.swift */; };
+		CE2C403123B3DDF700610C26 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C403023B3DDF700610C26 /* TreeNode.swift */; };
+		CE2C403323B3E40C00610C26 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C403223B3E40C00610C26 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CE2C3FC223B0080200610C26 /* CopyFiles */ = {
+		CE2C402423B3DDE900610C26 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -31,20 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE2C3FC423B0080200610C26 /* Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queue; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE2C3FC723B0080200610C26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CE2C3FCE23B0083100610C26 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		CE2C3FD023B0084100610C26 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
-		CE2C3FD223B0084900610C26 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		CE2C3FD523B0087E00610C26 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		CE2C3FD723B1D62300610C26 /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
-		CE2C3FD923B2870A00610C26 /* DoubleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleNode.swift; sourceTree = "<group>"; };
-		CE2C401923B2998D00610C26 /* QueueRingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBuffer.swift; sourceTree = "<group>"; };
-		CE2C401B23B2A7D200610C26 /* Monopoly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monopoly.swift; sourceTree = "<group>"; };
+		CE2C402623B3DDE900610C26 /* Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tree; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2C402923B3DDE900610C26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE2C403023B3DDF700610C26 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		CE2C403223B3E40C00610C26 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = ../../Queue/Queue/Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE2C3FC123B0080200610C26 /* Frameworks */ = {
+		CE2C402323B3DDE900610C26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,82 +42,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE2C3FBB23B0080200610C26 = {
+		CE2C401D23B3DDE900610C26 = {
 			isa = PBXGroup;
 			children = (
-				CE2C3FC623B0080200610C26 /* Queue */,
-				CE2C3FC523B0080200610C26 /* Products */,
+				CE2C402823B3DDE900610C26 /* Tree */,
+				CE2C402723B3DDE900610C26 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE2C3FC523B0080200610C26 /* Products */ = {
+		CE2C402723B3DDE900610C26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE2C3FC423B0080200610C26 /* Queue */,
+				CE2C402623B3DDE900610C26 /* Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE2C3FC623B0080200610C26 /* Queue */ = {
+		CE2C402823B3DDE900610C26 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				CE2C3FC723B0080200610C26 /* main.swift */,
-				CE2C3FD523B0087E00610C26 /* Queue.swift */,
-				CE2C401923B2998D00610C26 /* QueueRingBuffer.swift */,
-				CE2C401B23B2A7D200610C26 /* Monopoly.swift */,
-				CE2C3FD423B0086300610C26 /* Helper */,
+				CE2C402923B3DDE900610C26 /* main.swift */,
+				CE2C403023B3DDF700610C26 /* TreeNode.swift */,
+				CE2C403223B3E40C00610C26 /* Queue.swift */,
 			);
-			path = Queue;
-			sourceTree = "<group>";
-		};
-		CE2C3FD423B0086300610C26 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				CE2C3FD023B0084100610C26 /* LinkedList.swift */,
-				CE2C3FD723B1D62300610C26 /* DoublyLinkedList.swift */,
-				CE2C3FD923B2870A00610C26 /* DoubleNode.swift */,
-				CE2C3FCE23B0083100610C26 /* Stack.swift */,
-				CE2C3FD223B0084900610C26 /* Node.swift */,
-			);
-			path = Helper;
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE2C3FC323B0080200610C26 /* Queue */ = {
+		CE2C402523B3DDE900610C26 /* Tree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE2C3FCB23B0080200610C26 /* Build configuration list for PBXNativeTarget "Queue" */;
+			buildConfigurationList = CE2C402D23B3DDE900610C26 /* Build configuration list for PBXNativeTarget "Tree" */;
 			buildPhases = (
-				CE2C3FC023B0080200610C26 /* Sources */,
-				CE2C3FC123B0080200610C26 /* Frameworks */,
-				CE2C3FC223B0080200610C26 /* CopyFiles */,
+				CE2C402223B3DDE900610C26 /* Sources */,
+				CE2C402323B3DDE900610C26 /* Frameworks */,
+				CE2C402423B3DDE900610C26 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Queue;
-			productName = Queue;
-			productReference = CE2C3FC423B0080200610C26 /* Queue */;
+			name = Tree;
+			productName = Tree;
+			productReference = CE2C402623B3DDE900610C26 /* Tree */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE2C3FBC23B0080200610C26 /* Project object */ = {
+		CE2C401E23B3DDE900610C26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Sirak;
 				TargetAttributes = {
-					CE2C3FC323B0080200610C26 = {
+					CE2C402523B3DDE900610C26 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = CE2C3FBF23B0080200610C26 /* Build configuration list for PBXProject "Queue" */;
+			buildConfigurationList = CE2C402123B3DDE900610C26 /* Build configuration list for PBXProject "Tree" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,37 +111,31 @@
 				en,
 				Base,
 			);
-			mainGroup = CE2C3FBB23B0080200610C26;
-			productRefGroup = CE2C3FC523B0080200610C26 /* Products */;
+			mainGroup = CE2C401D23B3DDE900610C26;
+			productRefGroup = CE2C402723B3DDE900610C26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE2C3FC323B0080200610C26 /* Queue */,
+				CE2C402523B3DDE900610C26 /* Tree */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE2C3FC023B0080200610C26 /* Sources */ = {
+		CE2C402223B3DDE900610C26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2C3FD623B0087E00610C26 /* Queue.swift in Sources */,
-				CE2C3FD823B1D62300610C26 /* DoublyLinkedList.swift in Sources */,
-				CE2C3FD123B0084100610C26 /* LinkedList.swift in Sources */,
-				CE2C401C23B2A7D200610C26 /* Monopoly.swift in Sources */,
-				CE2C3FCF23B0083100610C26 /* Stack.swift in Sources */,
-				CE2C3FC823B0080200610C26 /* main.swift in Sources */,
-				CE2C3FD323B0084900610C26 /* Node.swift in Sources */,
-				CE2C3FDA23B2870A00610C26 /* DoubleNode.swift in Sources */,
-				CE2C401A23B2998D00610C26 /* QueueRingBuffer.swift in Sources */,
+				CE2C402A23B3DDE900610C26 /* main.swift in Sources */,
+				CE2C403323B3E40C00610C26 /* Queue.swift in Sources */,
+				CE2C403123B3DDF700610C26 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CE2C3FC923B0080200610C26 /* Debug */ = {
+		CE2C402B23B3DDE900610C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		CE2C3FCA23B0080200610C26 /* Release */ = {
+		CE2C402C23B3DDE900610C26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +248,7 @@
 			};
 			name = Release;
 		};
-		CE2C3FCC23B0080200610C26 /* Debug */ = {
+		CE2C402E23B3DDE900610C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		CE2C3FCD23B0080200610C26 /* Release */ = {
+		CE2C402F23B3DDE900610C26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -305,25 +273,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE2C3FBF23B0080200610C26 /* Build configuration list for PBXProject "Queue" */ = {
+		CE2C402123B3DDE900610C26 /* Build configuration list for PBXProject "Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE2C3FC923B0080200610C26 /* Debug */,
-				CE2C3FCA23B0080200610C26 /* Release */,
+				CE2C402B23B3DDE900610C26 /* Debug */,
+				CE2C402C23B3DDE900610C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE2C3FCB23B0080200610C26 /* Build configuration list for PBXNativeTarget "Queue" */ = {
+		CE2C402D23B3DDE900610C26 /* Build configuration list for PBXNativeTarget "Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE2C3FCC23B0080200610C26 /* Debug */,
-				CE2C3FCD23B0080200610C26 /* Release */,
+				CE2C402E23B3DDE900610C26 /* Debug */,
+				CE2C402F23B3DDE900610C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE2C3FBC23B0080200610C26 /* Project object */;
+	rootObject = CE2C401E23B3DDE900610C26 /* Project object */;
 }
